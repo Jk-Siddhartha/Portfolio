@@ -24,8 +24,8 @@
             <h1>Hello Everyone , I'm <span>Jaikishan</span></h1>
             <h2>A <span>Web</span> Developer</h2>
             <p>
-              A <span>Web</span> Developer is a software who develops all the
-              professional web application which is fully responsive and
+              A <span>Web</span> Developer is a software developer who develops
+              all the professional web application which is fully responsive and
               complete attractive. Also makes full stack web application which
               includes database along with backend like a E-commerce website.
             </p>
@@ -115,7 +115,6 @@
                 <div class="inner">
                   <div class="number">
                     <p>HTML</p>
-                    <p>65%</p>
                   </div>
                 </div>
               </div>
@@ -139,7 +138,6 @@
                 <div class="inner">
                   <div class="number">
                     <p>CSS</p>
-                    <p>50%</p>
                   </div>
                 </div>
               </div>
@@ -163,7 +161,6 @@
                 <div class="inner">
                   <div class="number">
                     <p>JAVASCRIPT</p>
-                    <p>70%</p>
                   </div>
                 </div>
               </div>
@@ -211,7 +208,6 @@
                 <div class="inner">
                   <div class="number">
                     <p>C++</p>
-                    <p>90%</p>
                   </div>
                 </div>
               </div>
@@ -235,7 +231,6 @@
                 <div class="inner">
                   <div class="number">
                     <p>ReactJS</p>
-                    <p>45%</p>
                   </div>
                 </div>
               </div>
@@ -259,7 +254,6 @@
                 <div class="inner">
                   <div class="number">
                     <p>ExpressJS</p>
-                    <p>30%</p>
                   </div>
                 </div>
               </div>
@@ -283,7 +277,6 @@
                 <div class="inner">
                   <div class="number">
                     <p>NodeJS</p>
-                    <p>35%</p>
                   </div>
                 </div>
               </div>
@@ -307,7 +300,6 @@
                 <div class="inner">
                   <div class="number">
                     <p>MongoDB</p>
-                    <p>37%</p>
                   </div>
                 </div>
               </div>
@@ -328,7 +320,7 @@
             </div>
           </div>
         </div>
-        <span class="more"><a href="">More &#10148;</a></span>
+        <!-- <span class="more"><a href="">More &#10148;</a></span> -->
       </div>
       <div id="projects">
         <h2 class="logo">🅼🆈 🆆🅾🆁🅺.</h2>
@@ -539,7 +531,7 @@
         {
           id: 1,
           name: "Weather Application",
-          date: "20/12/21",
+          date: "25/08/22",
           desc: "•This is a web application which is used to show the weather status of city through an API. It provides weather status of all the cities in the world.",
           imgSrc: "./images/project1.JPG",
           link: "https://jk-siddhartha.github.io/weather-Application/",
@@ -547,7 +539,7 @@
         {
           id: 2,
           name: "Car Race Game",
-          date: "20/12/21",
+          date: "10/03/22",
           desc: "•This is a 2D web game, this game contains a user car and several enemy cars and user have to save its car from enemy cars.",
           imgSrc: "./images/project2.JPG",
           link: "https://jk-siddhartha.github.io/carrace/",
@@ -555,7 +547,7 @@
         {
           id: 3,
           name: "Notes Application",
-          date: "20/12/21",
+          date: "17/02/22",
           desc: "•This is a kind of To-do Application which records the list of works to do, also can delete and edit the task or work.",
           imgSrc: "./images/project3.JPG",
           link: "https://jk-siddhartha.github.io/todoapp/",
@@ -563,7 +555,7 @@
         {
           id: 4,
           name: "Voice Recognition Based Email Bot",
-          date: "20/12/21",
+          date: "20/11/21",
           desc: "•Email Bot is a kind of Assistant which helps to send emails without doing any hard efforts and purely based on Voice Recognition.",
           imgSrc: "./images/project4.JPG",
           link: "",
@@ -571,7 +563,7 @@
         {
           id: 5,
           name: "Postman Clone",
-          date: "20/12/21",
+          date: "7/12/21",
           desc: "•Postman is an API platform for building and using APIs, we can send request to the database or API without having a front-end part and these request can be of methods POST, GET etc.",
           imgSrc: "./images/project5.JPG",
           link: "",
@@ -579,7 +571,7 @@
         {
           id: 6,
           name: "LOGTOINTO",
-          date: "20/12/21",
+          date: "09/01/22",
           desc: "•A Full Stack Website that has the facility of login & registration along with logout also can display the information of the logged-in user based on the validation on the behalf of cookies & tokens.",
           imgSrc: "./images/project6.JPG",
           link: "",
@@ -594,7 +586,7 @@
                 <h2 class="title">${projectsArr[i].name}</h2>
                 <div class="date">Date: ${projectsArr[i].date}</div>
                 <div class="desc">${projectsArr[i].desc}</div>
-                <a href="" class="btn">Know More</a>
+                <a href=${projectsArr[i].link} class="btn">View Project</a>
               </div>
             </div>`;
         projectContainer.insertAdjacentHTML("beforeend", data);
